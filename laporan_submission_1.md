@@ -147,13 +147,13 @@ Metrik evaluasi yang digunakan dalam proyek ini adalah:
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
 - **Penjelasan Formula Metrik:**
-  - **Akurasi:** $$ \text{Accuracy} = \frac{\text{True Positives} + \text{True Negatives}}{\text{Total Predictions}} $$
+  - **Akurasi:** $$\text{Accuracy} = \frac{\text{True Positives} + \text{True Negatives}}{\text{Total Predictions}}$$
   - *Penjelasan* =  Akurasi adalah proporsi prediksi yang benar dibandingkan dengan total jumlah prediksi.
-  - **Precision:** $$ \text{Precision} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Positives}} $$
+  - **Precision:** $$\text{Precision} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Positives}}$$
   - *Penjelasan* =  Precision adalah proporsi prediksi positif yang benar dibandingkan dengan total prediksi positif.
-  - **Recall:** $$ \text{Recall} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}} $$
+  - **Recall:** $$\text{Recall} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}} $$
   - *Penjelasan* =  Recall adalah proporsi kasus positif aktual yang berhasil diidentifikasi oleh model.
-  - **F1-Score:** $$ \text{F1-Score} = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}} $$
+  - **F1-Score:** $$\text{F1-Score} = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}$$
   - *Penjelasan* =  F1-Score adalah rata-rata harmonik antara precision dan recall.
 
 ---
